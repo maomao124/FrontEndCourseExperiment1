@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!--
+Project name(项目名称)：task1
+  File name(文件名): test4
+  Authors(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/5/24
+  Time(创建时间)： 18:59
+  Description(描述)： 无
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="p1" draggable="true">
+    元素支持鼠标的拖动
+</p>
+
+<div>
+    <p ondrag="dragging(event)" draggable="true">拖动我!</p>
+</div>
+<script>
+    function dragging(event)
+    {
+        console.log("正在拖动");
+    }
+</script>
+
+</body>
+</html>
